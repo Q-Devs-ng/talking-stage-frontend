@@ -19,7 +19,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>Made with love by Q Devs</p>
+        <p className="text-red-600">Made with love by Q Devs</p>
       </footer>
     </div>
   );
