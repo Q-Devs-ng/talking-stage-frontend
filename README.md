@@ -1,4 +1,6 @@
-Talking Stage web app.
+# Talking Stage web app.
+
+## [Figma design](https://www.figma.com/file/6MrELT21RKZQU47WZHt1Sr/Talking-Stage?node-id=2%3A5)
 
 ## Getting Started
 
