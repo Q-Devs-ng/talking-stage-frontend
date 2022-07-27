@@ -15,7 +15,7 @@ function Button<C extends React.ElementType<any> = "button">({
     As || "button",
     {
       ...props,
-      className: `${className} ${styles.btn} ${size}-size`,
+      className: `${className || ""} ${styles.btn} ${styles[size]}`,
     },
     ...React.Children.toArray(children)
   );

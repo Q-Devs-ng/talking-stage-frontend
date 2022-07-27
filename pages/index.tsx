@@ -19,9 +19,17 @@ export default function Home() {
           With Talking Stage, you get to anonymously meet people who you are ste up with and see if they are the one.
         </p>
       </main>
-      <Button component="a" href="/sapa" className="w-full" size="large">
-        Mummy
+      <Button size="normal">Normal</Button>
+      <Button size="medium">Medium</Button>
+      <Button size="large">Large</Button>
+      <Button size="normal" component="a" href="/">
+        As a tag
       </Button>
+      <Link href="/" passHref>
+        <Button size="normal" component="a">
+          As Next Link
+        </Button>
+      </Link>
       <footer className={styles.footer}>
         <p className="text-red-600">Made with love by Q Devs</p>
       </footer>
